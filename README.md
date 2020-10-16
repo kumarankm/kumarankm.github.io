@@ -1,4 +1,4 @@
 # kumarankm.github.io
-My portfolio with my own creation, without using bootstrap or any other external customization.
+# I am Kumaran Km and this is my personal website, consult me here
 Check in below link:
- https://kumaranusa.github.io/kumarankm.github.io/
+ https://kumarankm.github.io/
