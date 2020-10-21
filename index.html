@@ -260,15 +260,15 @@
                 <h2 class="section-title">Get In Touch</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact_form">
+                    <form action="forms/contact.php" method="post" role="form" class="contact_form">
                         <div class="contact__inputs">
-                            <input type="text" placeholder="Name" class="contact__input">
-                            <input type="mail" placeholder="Email" class="contact__input">
+                            <input type="text" placeholder="Name" name="name" required class="contact__input">
+                            <input type="mail" placeholder="Email" name="email" required class="contact__input">
                         </div>
 
-                        <input type="text" placeholder="Project" class="contact__input">
+                        <input type="text" placeholder="Subject" name="subject" required class="contact__input">
 
-                        <textarea name="" id="" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
+                        <textarea name="" id="" cols="0" rows="10" placeholder="Message" name="message" required class="contact__input"></textarea>
                         <input type="submit" value="Send Message" class="button contact__button">
 
 
