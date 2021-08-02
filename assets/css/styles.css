@@ -158,7 +158,7 @@ img{
   top: 1rem;
   right: 1rem;
   font-size: 2rem;
-  color: var( --first-color);
+  color: var(--first-color-lighten);
   cursor: pointer;
 }
 
