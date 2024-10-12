@@ -207,17 +207,17 @@ img{
 }
 
 .home__img{
-  padding-top: 1.3rem;
-  padding-left: .8rem;
-  width: 160px;
-  height: 160px;
+ /* padding-top: 1.3rem;
+  padding-left: .8rem;*/
+  width: 200px;
+  height: 200px;
   background-color: var(--first-color);
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: var(--mb-2);
 }
 .home__img img{
-  width: 155px;
+  width: 200px;
 }
 .home__title{
   font-size:var(--h1-font-size);
@@ -272,6 +272,7 @@ img{
 
 
 /* ===== ABOUT =====*/
+
 .about__container{
   row-gap:2rem;
 }
@@ -538,6 +539,8 @@ img{
     border-radius: .5rem;
   }
 
+  
+
 }
 
 @media screen and (min-width: 1024px){
@@ -571,6 +574,8 @@ img{
     margin-right: auto;
 
   }
+
+
 
   
 
